@@ -6,9 +6,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 
+@layer base {
+    html {
+        @apply  !font-Karla;
+    }
+}
+
+
 @layer components {
     .nav__link--item {
-        @apply  relative pb-0.5 px-1 after:absolute after:bottom-0 after:left-0 after:h-0.5 
-        after:w-0 after:bg-primary--color hover:after:w-full after:transition-all after:ease-in-out after:duration-300;
+        @apply  relative pb-0.5 px-1 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 
+        after:lg:w-0 after:lg:bg-primary--color hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
     }
+    .nav__link--item.active {
+        @apply text-[#1d1f2e];
+    }
+}
+
+/* Custom style CSS  */
+.menu__navbar--active {
+    @apply flex flex-col absolute top-[102%] left-0 right-0 w-full bg-slate-300 z-20 py-5 text-center space-y-4 animate-slideDown;
 }
