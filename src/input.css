@@ -18,8 +18,16 @@
         @apply  relative pb-0.5 px-1 after:lg:absolute after:lg:bottom-0 after:lg:left-0 after:lg:h-0.5 
         after:lg:w-0 after:lg:bg-primary--color hover:after:lg:w-full after:lg:transition-all after:lg:ease-in-out after:lg:duration-300;
     }
+
     .nav__link--item.active {
         @apply text-[#1d1f2e];
+    }
+
+    .btn {
+        @apply  inline-block text-base uppercase cursor-pointer rounded-sm px-7 py-3.5 md:px-10 md:py-4;
+    }
+    .btn--primary {
+        @apply  text-[#1d1f2e] w-max bg-white font-bold tracking-widest hover:bg-opacity-80 transition-all ease-in-out duration-300;
     }
 }
 
