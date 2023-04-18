@@ -562,38 +562,22 @@ html {
   margin-right: auto;
 }
 
-<<<<<<< HEAD
-=======
 .\!flex {
   display: flex !important;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .flex {
   display: flex;
 }
 
-<<<<<<< HEAD
-=======
 .hidden {
   display: none;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .h-5 {
   height: 1.25rem;
 }
 
-<<<<<<< HEAD
-.h-7 {
-  height: 1.75rem;
-}
-
-.w-32 {
-  width: 8rem;
-}
-
-=======
 .h-6 {
   height: 1.5rem;
 }
@@ -606,18 +590,14 @@ html {
   width: 7rem;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .w-5 {
   width: 1.25rem;
 }
 
-<<<<<<< HEAD
-=======
 .w-7 {
   width: 1.75rem;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -630,31 +610,14 @@ html {
   resize: both;
 }
 
-<<<<<<< HEAD
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
-}
-
-.gap-x-28 {
-  -moz-column-gap: 7rem;
-       column-gap: 7rem;
-=======
 .items-center {
   align-items: center;
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 }
 
 .justify-between {
   justify-content: space-between;
 }
 
-<<<<<<< HEAD
-.rounded-full {
-  border-radius: 9999px;
-}
-
-=======
 .gap-x-12 {
   -moz-column-gap: 3rem;
        column-gap: 3rem;
@@ -677,7 +640,6 @@ html {
   border-radius: 9999px;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .bg-\[\#777982\] {
   --tw-bg-opacity: 1;
   background-color: rgb(119 121 130 / var(--tw-bg-opacity));
@@ -686,14 +648,6 @@ html {
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-<<<<<<< HEAD
-}
-
-.stroke-\[\#777982\] {
-  stroke: #777982;
-}
-
-=======
 }
 
 .stroke-\[\#1d1f2e\] {
@@ -709,20 +663,11 @@ html {
   padding-right: 3rem;
 }
 
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
 
-<<<<<<< HEAD
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-=======
->>>>>>> d637bc1242a243438f89c2a2ff68c427496eb36c
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
