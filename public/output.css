@@ -713,6 +713,10 @@ html {
   top: 1rem;
 }
 
+.left-\[calc\(-50vw_\+_50\%\)\] {
+  left: calc(-50vw + 50%);
+}
+
 .z-20 {
   z-index: 20;
 }
@@ -745,6 +749,14 @@ html {
 
 .mt-20 {
   margin-top: 5rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .block {
@@ -811,6 +823,14 @@ html {
   height: 100%;
 }
 
+.h-\[350px\] {
+  height: 350px;
+}
+
+.h-\[380px\] {
+  height: 380px;
+}
+
 .w-28 {
   width: 7rem;
 }
@@ -829,6 +849,10 @@ html {
 
 .w-full {
   width: 100%;
+}
+
+.w-\[100vw\] {
+  width: 100vw;
 }
 
 .max-w-screen-2xl {
@@ -981,12 +1005,28 @@ html {
   background-image: url("./images/slider-img.jpg");
 }
 
+.bg-\[url\(\'\.\/images\/\'\)\] {
+  background-image: url('./images/');
+}
+
+.bg-\[url\(\'\.\/images\/parallax-img\.jpg\'\)\] {
+  background-image: url('./images/parallax-img.jpg');
+}
+
 .bg-cover {
   background-size: cover;
 }
 
+.bg-fixed {
+  background-attachment: fixed;
+}
+
 .bg-bottom {
   background-position: bottom;
+}
+
+.bg-center {
+  background-position: center;
 }
 
 .bg-no-repeat {
@@ -1323,10 +1363,6 @@ html {
 }
 
 @media (min-width: 510px) {
-  .xs\:\!h-\[170px\] {
-    height: 170px !important;
-  }
-
   .xs\:h-\[170px\] {
     height: 170px;
   }
@@ -1350,6 +1386,10 @@ html {
 @media (min-width: 768px) {
   .md\:mb-0 {
     margin-bottom: 0px;
+  }
+
+  .md\:mb-20 {
+    margin-bottom: 5rem;
   }
 
   .md\:h-\[130px\] {
@@ -1431,6 +1471,14 @@ html {
 
   .lg\:mt-28 {
     margin-top: 7rem;
+  }
+
+  .lg\:mb-28 {
+    margin-bottom: 7rem;
+  }
+
+  .lg\:mb-32 {
+    margin-bottom: 8rem;
   }
 
   .lg\:flex {
