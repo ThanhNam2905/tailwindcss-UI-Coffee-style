@@ -593,6 +593,7 @@ html {
   --tw-bg-opacity: 0.8;
 }
 
+<<<<<<< HEAD
 .btn--shopping {
   display: inline-block;
   border-radius: 0.125rem;
@@ -689,10 +690,13 @@ html {
   position: absolute;
 }
 
+=======
+>>>>>>> master
 .relative {
   position: relative;
 }
 
+<<<<<<< HEAD
 .-bottom-\[5\%\] {
   bottom: -5%;
 }
@@ -717,14 +721,19 @@ html {
   left: calc(-50vw + 50%);
 }
 
+=======
+>>>>>>> master
 .z-20 {
   z-index: 20;
 }
 
+<<<<<<< HEAD
 .col-span-12 {
   grid-column: span 12 / span 12;
 }
 
+=======
+>>>>>>> master
 .\!my-7 {
   margin-top: 1.75rem !important;
   margin-bottom: 1.75rem !important;
@@ -735,14 +744,18 @@ html {
   margin-right: auto;
 }
 
+<<<<<<< HEAD
 .\!mt-7 {
   margin-top: 1.75rem !important;
 }
 
+=======
+>>>>>>> master
 .mb-5 {
   margin-bottom: 1.25rem;
 }
 
+<<<<<<< HEAD
 .mb-6 {
   margin-bottom: 1.5rem;
 }
@@ -767,6 +780,8 @@ html {
   display: inline-block;
 }
 
+=======
+>>>>>>> master
 .\!flex {
   display: flex !important;
 }
@@ -795,6 +810,7 @@ html {
   height: 1.75rem;
 }
 
+<<<<<<< HEAD
 .h-\[150px\] {
   height: 150px;
 }
@@ -815,6 +831,8 @@ html {
   height: 540px;
 }
 
+=======
+>>>>>>> master
 .h-\[550px\] {
   height: 550px;
 }
@@ -823,6 +841,7 @@ html {
   height: 100%;
 }
 
+<<<<<<< HEAD
 .h-\[350px\] {
   height: 350px;
 }
@@ -831,6 +850,8 @@ html {
   height: 380px;
 }
 
+=======
+>>>>>>> master
 .w-28 {
   width: 7rem;
 }
@@ -843,18 +864,24 @@ html {
   width: 1.75rem;
 }
 
+<<<<<<< HEAD
 .w-\[47\%\] {
   width: 47%;
 }
 
+=======
+>>>>>>> master
 .w-full {
   width: 100%;
 }
 
+<<<<<<< HEAD
 .w-\[100vw\] {
   width: 100vw;
 }
 
+=======
+>>>>>>> master
 .max-w-screen-2xl {
   max-width: 1536px;
 }
@@ -863,6 +890,7 @@ html {
   flex-grow: 1;
 }
 
+<<<<<<< HEAD
 .basis-1\/2 {
   flex-basis: 50%;
 }
@@ -871,6 +899,8 @@ html {
   flex-basis: 100%;
 }
 
+=======
+>>>>>>> master
 .cursor-pointer {
   cursor: pointer;
 }
@@ -879,6 +909,7 @@ html {
   resize: both;
 }
 
+<<<<<<< HEAD
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -887,6 +918,8 @@ html {
   flex-direction: row;
 }
 
+=======
+>>>>>>> master
 .flex-col {
   flex-direction: column;
 }
@@ -921,6 +954,7 @@ html {
        column-gap: 0.5rem;
 }
 
+<<<<<<< HEAD
 .gap-x-5 {
   -moz-column-gap: 1.25rem;
        column-gap: 1.25rem;
@@ -942,18 +976,23 @@ html {
   margin-bottom: calc(0.5rem * var(--tw-space-y-reverse));
 }
 
+=======
+>>>>>>> master
 .space-y-3 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(0.75rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(0.75rem * var(--tw-space-y-reverse));
 }
 
+<<<<<<< HEAD
 .space-y-5 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(1.25rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1.25rem * var(--tw-space-y-reverse));
 }
 
+=======
+>>>>>>> master
 .overflow-hidden {
   overflow: hidden;
 }
@@ -993,10 +1032,13 @@ html {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+<<<<<<< HEAD
 .bg-opacity-0 {
   --tw-bg-opacity: 0;
 }
 
+=======
+>>>>>>> master
 .bg-opacity-40 {
   --tw-bg-opacity: 0.4;
 }
@@ -1005,6 +1047,7 @@ html {
   background-image: url("./images/slider-img.jpg");
 }
 
+<<<<<<< HEAD
 .bg-\[url\(\'\.\/images\/\'\)\] {
   background-image: url('./images/');
 }
@@ -1013,22 +1056,30 @@ html {
   background-image: url('./images/parallax-img.jpg');
 }
 
+=======
+>>>>>>> master
 .bg-cover {
   background-size: cover;
 }
 
+<<<<<<< HEAD
 .bg-fixed {
   background-attachment: fixed;
 }
 
+=======
+>>>>>>> master
 .bg-bottom {
   background-position: bottom;
 }
 
+<<<<<<< HEAD
 .bg-center {
   background-position: center;
 }
 
+=======
+>>>>>>> master
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1056,6 +1107,7 @@ html {
   padding-right: 0.5rem;
 }
 
+<<<<<<< HEAD
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -1066,11 +1118,21 @@ html {
   padding-right: 1.25rem;
 }
 
+=======
+>>>>>>> master
 .px-7 {
   padding-left: 1.75rem;
   padding-right: 1.75rem;
 }
 
+<<<<<<< HEAD
+=======
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+>>>>>>> master
 .py-0 {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1096,6 +1158,7 @@ html {
   padding-bottom: 1.5rem;
 }
 
+<<<<<<< HEAD
 .py-9 {
   padding-top: 2.25rem;
   padding-bottom: 2.25rem;
@@ -1109,14 +1172,19 @@ html {
   padding-left: 1.5rem;
 }
 
+=======
+>>>>>>> master
 .text-center {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .font-Karla {
   font-family: Karla, sans - serif;
 }
 
+=======
+>>>>>>> master
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
@@ -1216,16 +1284,20 @@ html {
   color: rgb(145 145 153 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-\[\#a25f4b\] {
   --tw-text-opacity: 1;
   color: rgb(162 95 75 / var(--tw-text-opacity));
 }
 
+=======
+>>>>>>> master
 .text-\[\#c9c9d0\] {
   --tw-text-opacity: 1;
   color: rgb(201 201 208 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .text-primary--color-text {
   --tw-text-opacity: 1;
   color: rgb(29 31 46 / var(--tw-text-opacity));
@@ -1240,6 +1312,8 @@ html {
   color: rgb(168 162 158 / 0.6);
 }
 
+=======
+>>>>>>> master
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -1345,10 +1419,13 @@ html {
   --tw-bg-opacity: 0;
 }
 
+<<<<<<< HEAD
 .group:hover .group-hover\:bg-opacity-10 {
   --tw-bg-opacity: 0.1;
 }
 
+=======
+>>>>>>> master
 .group:hover .group-hover\:stroke-\[\#1d1f2e\] {
   stroke: #1d1f2e;
 }
@@ -1358,6 +1435,7 @@ html {
   color: rgb(29 31 46 / var(--tw-text-opacity));
 }
 
+<<<<<<< HEAD
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
 }
@@ -1377,6 +1455,9 @@ html {
     width: 50%;
   }
 
+=======
+@media (min-width: 640px) {
+>>>>>>> master
   .sm\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
@@ -1384,6 +1465,7 @@ html {
 }
 
 @media (min-width: 768px) {
+<<<<<<< HEAD
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1442,17 +1524,25 @@ html {
     margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
   }
 
+=======
+>>>>>>> master
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
 
+<<<<<<< HEAD
   .md\:text-left {
     text-align: left;
   }
 
   .md\:text-\[33px\] {
     font-size: 33px;
+=======
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+>>>>>>> master
   }
 }
 
@@ -1550,10 +1640,13 @@ html {
     line-height: 1;
   }
 
+<<<<<<< HEAD
   .lg\:text-\[36px\] {
     font-size: 36px;
   }
 
+=======
+>>>>>>> master
   .lg\:text-lg {
     font-size: 1.125rem;
     line-height: 1.75rem;
