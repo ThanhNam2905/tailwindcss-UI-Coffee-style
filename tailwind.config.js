@@ -4,11 +4,15 @@ module.exports = {
     mode: 'jit',
     theme: {
         extend: {
+            screens: {
+                'xs': '510px',
+            },
             fontFamily: {
                 Karla: ['Karla', 'sans - serif'],
             },
             colors: {
                 'primary--color': '#BF3325',
+                'primary--color-text': '#1d1f2e',
             },
             keyframes: {
                 slideDown: {
