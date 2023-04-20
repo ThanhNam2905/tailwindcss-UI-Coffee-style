@@ -53,6 +53,11 @@
         @apply  text-[#919199] inline-block mx-2 text-xs uppercase tracking-widest font-medium text-center leading-6 
                 md:mx-3;
     }
+
+    .parallax__section {
+        @apply  bg-[url('./images/parallax-img.jpg')] bg-no-repeat bg-center bg-cover bg-fixed h-[400px] mb-6 w-[100vw] relative left-[calc(-50vw_+_50%)]
+                md:h-[500px] md:mb-20 lg:mb-32;
+    }
 }
 
 /* Custom style CSS  */
